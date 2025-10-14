@@ -1,4 +1,4 @@
-A module for waybar that monitors the storage space of mount points (using df)
+A module for [Waybar](https://github.com/Alexays/Waybar) that monitors the storage space of mount points (using df)
 
 ![screenshot](https://raw.githubusercontent.com/clorteau/waybardf/refs/heads/main/screenshot.png)
 
