@@ -8,7 +8,9 @@ A module for waybar that monitors the storage space of mount points (using df)
 # Download
 Download [waybardf.py](https://raw.githubusercontent.com/clorteau/waybardf/refs/heads/main/waybardf.py) anywhere you have permission to read it.
 # Usage
-In your waybar's .jsonc, add one entry per mount point you want to monitor. Examples:
+In your waybar's .jsonc, add one entry per mount point you want to monitor.
+
+Examples:
 ```json
 "custom/df1": {
     "format": "🖴 {text}",
@@ -29,15 +31,16 @@ This modules exposes 3 css classes for styling:
 - 'normal'
 - 'warning' when space usage is over 90%
 - 'critical' when space usage is over 98%
+
 Example of 'style.css':
 ```css
-#custom-df1.normal, custom-df2.normal {
+#custom-df1.normal, #custom-df2.normal {
   background: @background-primary;
 }
-#custom-df1.warning, custom-df2.warning {
+#custom-df1.warning, #custom-df2.warning {
   background: darkorange;
 }
-#custom-df1.critical, custom-df2.critical {
+#custom-df1.critical, #custom-df2.critical {
   background: darkred;
 }
 ```
