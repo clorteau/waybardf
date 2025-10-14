@@ -29,6 +29,7 @@ This modules exposes 3 css classes for styling:
 - 'normal'
 - 'warning' when space usage is over 90%
 - 'critical' when space usage is over 98%
+
 Example of 'style.css':
 ```css
 #custom-df1.normal, custom-df2.normal {
