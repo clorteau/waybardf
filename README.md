@@ -27,7 +27,7 @@ Examples:
     "on-click": "pcmanfm-qt /mnt/backups"
   },
 ```
-This modules exposes 3 css classes for styling:
+This module exposes 3 css classes for styling:
 - 'normal'
 - 'warning' when space usage is over 90%
 - 'critical' when space usage is over 98%
