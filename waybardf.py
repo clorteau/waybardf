@@ -13,7 +13,7 @@ def main():
     cssclass = 'normal'
 
     parser = argparse.ArgumentParser(
-        prog = 'waybardu.sh',
+        prog = 'waybardf.py',
         description = 'Waybar module for displaying the storage space used/available on 1 mount point',
     )
     parser.add_argument('-l', '--label', type=str, help='label to be displayed (defaults to the full mount point path)')
